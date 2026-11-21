@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Kaggle credentials & API keys (Never commit secrets!)
+Kaggle.json
+kaggle.json
+*.token
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.log
+
+# Large raw dataset files (downloaded via kagglehub or cache)
+*.csv.archive
+*.zip
+*.tar.gz
